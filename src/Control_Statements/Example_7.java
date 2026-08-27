@@ -1,5 +1,5 @@
 package Control_Statements;
-// Write a java program to print numbers from a given range
+// Write a java program to print prime  numbers from a given range
 import java.util.Scanner;
 public class Example_7 { 
    public static void main(String[] args) {

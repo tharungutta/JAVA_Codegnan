@@ -23,6 +23,7 @@ public class Example_L3_1 {
 		System.out.println("Enter your income correctly");
 	}
 	System.out.println("Income :"+income);
+	System.out.println("Tax :"+tax);
 	System.out.println("Tax reduced income :"+fincome);
 	sc.close();
 }
