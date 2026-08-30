@@ -1,6 +1,7 @@
 package Practice_self;
+//coping from one array to another array
 import java.util.Arrays;
-public class Example_1 {
+public class Array1_Coping_Array2 {
   public static void main(String[] args) {
 	int [] a = {10,20,30,40};
 	System.out.println("Original array");

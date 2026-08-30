@@ -1,6 +1,6 @@
 package Practice_self;
 // Fibonacci seris
-public class Example_7 {
+public class Fibonacci_Series {
   public static void main(String[] args) {
 	int n = 10;
 	int a = 0, b= 1;

@@ -1,6 +1,6 @@
 package Practice_self;
 // To check it is a perfect number
-public class Example_5 {
+public class Perfect_number {
   public static void main(String[] args) {
 	int num = 6;
 	int sum = 0;

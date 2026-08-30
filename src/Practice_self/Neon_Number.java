@@ -1,6 +1,6 @@
 package Practice_self;
 
-public class Example_4 {
+public class Neon_Number {
    public static void main(String[] args) {
 	int num = 9;
 	int square = num*num ;

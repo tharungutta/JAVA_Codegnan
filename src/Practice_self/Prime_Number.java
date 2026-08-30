@@ -1,7 +1,7 @@
 package Practice_self;
 // to check given number is prime or not
 import java.util.Scanner;
-public class Example_6 {
+public class Prime_Number {
    public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter the number to check is prime :");

@@ -1,6 +1,6 @@
 package Practice_self;
 //Remove duplicates
-public class Example_10 {
+public class Remove_duplicates_Array {
   public static void main(String[] args) {
 	int [] a = {4,5,4,2,4,2,1,3,4,3};
 	for(int i=0;i<a.length;i++) {

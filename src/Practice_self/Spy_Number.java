@@ -1,6 +1,6 @@
 package Practice_self;
 // to check given number is spy number or not
-public class Example_3 {
+public class Spy_Number {
   public static void main(String[] args) {
 	int num = 132;
 	int lastDigit = 0;

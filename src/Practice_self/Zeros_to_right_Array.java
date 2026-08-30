@@ -1,7 +1,7 @@
 package Practice_self;
 // move ZERO's to right
 import java.util.*;
-public class Example_12 {
+public class Zeros_to_right_Array {
    public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter the array size :");
