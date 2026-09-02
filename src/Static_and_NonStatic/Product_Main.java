@@ -6,7 +6,7 @@ public class Product_Main {
 	p1.display();
 	Product p2 = new Product(101,123.4f,1001.4f);    // calling parameterized constructor
 	p2.display();
-	Product p3 = new Product(p1);       // coping data from one constructor to another 
+	Product p3 = new Product(p2);       // coping data from one constructor to another 
 	p3.display();
 }
 }

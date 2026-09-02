@@ -1,0 +1,29 @@
+package Static_and_NonStatic;
+
+public class Mobile {
+   int mobileId;
+   float mobilePrice;
+   float modelNum;
+   
+   
+ private  Mobile(){                // here constructor is private 
+	 int  mobileId = 10;
+	 float mobilePrice = 4000;
+	 float modelNum = 300;
+   }
+   Mobile(int mobileId, float mobilePrice, float modelNum){    
+	   this(); 
+	   this.mobileId = mobileId;
+	   this.mobilePrice = mobilePrice;
+	   this.modelNum = modelNum;
+   }
+  private void display(){
+	   System.out.println(mobileId);
+	   System.out.println(mobilePrice);
+	   System.out.println(modelNum);
+   }
+   void show(){
+	   this.display();
+   }
+   
+}
