@@ -7,18 +7,19 @@ public class Mobile {
    
    
  private  Mobile(){                // here constructor is private 
-	 int  mobileId = 10;
-	 float mobilePrice = 4000;
-	 float modelNum = 300;
+	  mobileId = 10;
+	  mobilePrice = 4000;
+	  modelNum = 300;
 	 System.out.println("Private constructor called");
    }
    Mobile(int mobileId, float mobilePrice, float modelNum){    
 	   this(); 
-	   this.mobileId = mobileId;
-	   this.mobilePrice = mobilePrice;
-	   this.modelNum = modelNum;
+	   
+//	   this.mobileId = mobileId;
+//	   this.mobilePrice = mobilePrice;
+//	   this.modelNum = modelNum;
    }
-  private void display(){
+  private  void display(){
 	   System.out.println(mobileId);
 	   System.out.println(mobilePrice);
 	   System.out.println(modelNum);

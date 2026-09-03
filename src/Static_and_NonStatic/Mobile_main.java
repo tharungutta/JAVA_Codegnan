@@ -6,7 +6,7 @@ public class Mobile_main {
 //		m.display();
 
 		Mobile m1 = new Mobile(100,30000,259);
-//		m1.display();
+//	m1.display();
 		m1.show();
 	}
 	
