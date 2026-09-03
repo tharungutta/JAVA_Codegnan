@@ -10,6 +10,7 @@ public class Mobile {
 	 int  mobileId = 10;
 	 float mobilePrice = 4000;
 	 float modelNum = 300;
+	 System.out.println("Private constructor called");
    }
    Mobile(int mobileId, float mobilePrice, float modelNum){    
 	   this(); 
@@ -25,5 +26,5 @@ public class Mobile {
    void show(){
 	   this.display();
    }
-   
+
 }
