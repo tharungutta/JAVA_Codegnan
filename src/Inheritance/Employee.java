@@ -1,6 +1,6 @@
 package Inheritance;
 
-public class Employee {
+public class Employee  extends Company {
   protected int empno;
   protected float empsal;
   Employee(){
@@ -14,6 +14,8 @@ public class Employee {
 	  System.out.println("This is super class paramerized constructor");
   }
   void display() {
+	  System.out.println("Company Name :"+comName);
+	  System.out.println("Compnay id :"+comId);
 	  System.out.println("The emp no is :"+empno);
 	  System.out.println("The emp empsal is :"+empsal);
   }
