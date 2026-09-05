@@ -23,8 +23,8 @@ public class Example_4 {
 				present++;
 			}
 		}
-		double presentPerc = present/n;
-		double absentPerc = absent/n;
+		double presentPerc = present/n *100;
+		double absentPerc = absent/n *100;
 		System.out.println("Total present :"+present);
 		System.out.println("Total absent :"+absent);
 		System.out.println("Present % :"+presentPerc);
