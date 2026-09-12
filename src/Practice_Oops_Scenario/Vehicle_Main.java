@@ -16,6 +16,7 @@ public class Vehicle_Main {
 		double duration = sc.nextDouble();
 		Bike b1 = new Bike(reg, name,duration);
 		b1.parkingCharge();
+		break;
 	}
 	case "car":{
 		System.out.println("Enter the Car Owners name :");
@@ -26,6 +27,7 @@ public class Vehicle_Main {
 		double duration = sc.nextDouble();
 		Car c1 = new Car(reg, name,duration);
 		c1.parkingCharge();
+		break;
 	}
 	case "evcar":{
 		System.out.println("Enter the EV Car Owners name :");
@@ -36,7 +38,10 @@ public class Vehicle_Main {
 		double duration = sc.nextDouble();
 		EVCar e1 = new EVCar(reg, name,duration);
 		e1.parkingCharge();
+		break;
 	}
+	default:
+		System.out.println("Enter correct details");
 		
 	}
 	sc.close();

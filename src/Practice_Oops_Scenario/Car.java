@@ -11,7 +11,7 @@ public class Car extends Vehicle {
     }
     @Override
     void parkingCharge() {
-    	System.out.println(" Car Owners Name :"+Name);
+    	System.out.println("Car Owners Name :"+Name);
     	System.out.println("Car Registration Number :"+regNo);
     	System.out.println("Parking Duration:"+duration);
     	double fee = duration*Ccost;
