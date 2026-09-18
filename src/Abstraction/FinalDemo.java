@@ -1,7 +1,7 @@
 package Abstraction;
 
 public final class FinalDemo {
-   protected final int a, b;
+   protected final int a, b;	
    FinalDemo(){
 	   a = 100;
 	   b = 200;
