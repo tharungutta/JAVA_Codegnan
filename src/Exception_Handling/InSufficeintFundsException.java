@@ -10,7 +10,7 @@ public class InSufficeintFundsException extends Exception {                     
 class BankAccount{
 	public static void main(String[] args) {
 		int deposit = 10000, withdraw = 30000;
-		if(deposit>=withdraw) {
+		if(withdraw<=deposit) {
 			int balance = deposit - withdraw;
 			System.out.println("Balance amount is:"+balance);
 		}else {

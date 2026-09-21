@@ -1,6 +1,7 @@
 package MultiThreading;
 
 public class JoinDemo extends Thread {
+   @Override
    public void run() {
 	   try {
 		   for(int i = 0;i<10;i++) {
