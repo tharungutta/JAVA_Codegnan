@@ -15,9 +15,7 @@ class Atm{
 			System.out.println("Correct pin");
 		}else {
 			
-				throw new IncorrectPinException("pin is incorrect");
-			
-			
+				throw new IncorrectPinException("pin is incorrect");		
 		}
 	}
 }

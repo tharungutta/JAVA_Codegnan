@@ -1,4 +1,4 @@
-package Exception_Handling;
+ package Exception_Handling;
 
 public class InSufficeintFundsException extends Exception {                           // throw Example
 
@@ -22,4 +22,4 @@ class BankAccount{
 			}
 		}
 	}
-}
+} 
