@@ -1,0 +1,36 @@
+package Files;
+
+import java.io.*;
+                                                       // BufferReader and BufferedWriter Example
+public class BufferedDemo {
+   public static void main(String[] args) {
+	try {
+		FileReader fr = new FileReader("abc.txt");
+		BufferedReader br = new BufferedReader(fr);
+		
+		FileWriter fw = new FileWriter("xyz.txt");
+		BufferedWriter bw = new BufferedWriter(fw);
+		
+		long t1 = System.nanoTime();
+		int n;
+		while((n= br.read()) != -1) {              // using BufferReader
+			bw.write(n);
+		}
+		
+		long t2 = System.nanoTime();
+		System.out.println("Time taken:"+(t2-t1));
+		
+		long t3 = System.nanoTime(); 
+		int n1;
+		while((n1= fr.read()) != -1) {                  // Using FileReader
+			
+			fw.write(n1);
+		}
+		
+		long t4 = System.nanoTime();
+		System.out.println("Time taken:"+(t4-t3));
+	}catch(Exception e) {
+		
+	}
+}
+}

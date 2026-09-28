@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Employee implements Serializable {
    private int eno;
-   private String ename;
+   transient String ename;                       // static and transient variables cannot be serliazed
    private String edept;
    public Employee(int eno, String ename, String edept) {
 	super();
