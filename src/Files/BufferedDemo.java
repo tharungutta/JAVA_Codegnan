@@ -16,6 +16,7 @@ public class BufferedDemo {
 		while((n= br.read()) != -1) {              // using BufferReader
 			bw.write(n);
 		}
+
 		
 		long t2 = System.nanoTime();
 		System.out.println("Time taken:"+(t2-t1));
