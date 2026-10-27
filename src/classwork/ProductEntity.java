@@ -75,6 +75,7 @@ public boolean equals(Object obj) {
 }
 }
 
+
 class EntityMain{
 	public static void main(String[] args) {
 		ProductEntity p1 = new ProductEntity(101, "Laptop", 50000);
