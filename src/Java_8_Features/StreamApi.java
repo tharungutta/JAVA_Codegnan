@@ -1,6 +1,5 @@
 package Java_8_Features;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -43,12 +42,12 @@ public class StreamApi {
 	   
 	   List<Integer> compasort = al.stream().sorted(Comparator.reverseOrder()).collect(Collectors.toList());
 	   System.out.println(compasort);
-	           // minimum marks
-	   int minVal = al.stream().min((i1, i2) -> i1.compareTo(i2)).get();
+	      // minimum marks
+	   int minVal = al.stream().min((i1, i2) -> i1.compareTo(i2)).get();	
 	           System.out.println("min marks :" + minVal);
 	   int maxVal = al.stream().max((i1, i2) -> i1.compareTo(i2)).get();
 	           System.out.println("min marks :" + maxVal);
-	           // by using method referenece
+	           // by using method reference
 	           al.stream().forEach(System.out::println);
 	   
 }

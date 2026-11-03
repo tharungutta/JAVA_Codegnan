@@ -3,7 +3,7 @@ import java.io.FileInputStream;
 public class FileInputDemo {
  public static void main(String[] args) {
 	 try {
-	FileInputStream fis = new FileInputStream("abc.txt");  // fis --> abc.txt
+	FileInputStream fis = new FileInputStream("abc1.txt");  // fis --> abc.txt
 	int n ;
 	while((n = fis.read())!= -1 ) {
 		System.out.println((char)n);

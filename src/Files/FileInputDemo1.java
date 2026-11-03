@@ -4,7 +4,7 @@ import java.io.FileInputStream;
                                                                    // try with resources ex
 public class FileInputDemo1 {
 	 public static void main(String[] args) {
-		 try (FileInputStream fis = new FileInputStream("abc.txt"); ){
+		 try (FileInputStream fis = new FileInputStream("abc1.txt"); ){
 		 // fis --> abc.txt
 		int n ;
 		while((n = fis.read())!= -1 ) {

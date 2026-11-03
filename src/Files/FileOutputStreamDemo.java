@@ -6,7 +6,7 @@ import java.io.FileOutputStream;
 public class FileOutputStreamDemo {
 	public static void main(String[] args) {
 		 try {
-		FileInputStream fis = new FileInputStream("abc.txt");  // fis --> abc.txt
+		FileInputStream fis = new FileInputStream("abc1.txt");  // fis --> abc.txt
 		FileOutputStream fos = new FileOutputStream("xyz.txt",true);
 		int n ;
 		while((n = fis.read())!= -1 ) {
