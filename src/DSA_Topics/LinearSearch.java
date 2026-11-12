@@ -1,4 +1,4 @@
-package Arrays;
+package DSA_Topics;
 
 import java.util.Arrays;
 import java.util.List;

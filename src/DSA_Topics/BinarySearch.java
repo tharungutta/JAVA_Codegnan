@@ -1,4 +1,4 @@
-package Arrays;
+package DSA_Topics;
 import java.util.*;
 public class BinarySearch {
    public static void main(String[] args) {
